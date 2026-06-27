@@ -448,7 +448,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 53429226,
-            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/optionaloff/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/optionalon/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
             "MD5": "dec1c8595667b063e9274d32b32efa5d"
           },
           "required": {
@@ -856,7 +856,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 206984,
-            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/optionaloff/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/optionalon/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
             "MD5": "6e3efd49fceebe9026b8f831518e0048"
           },
           "required": {
@@ -870,7 +870,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 110583,
-            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/required/starlight-1.1.2+forge.1cda73c.jar",
+            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/optionaloff/starlight-1.1.2+forge.1cda73c.jar",
             "MD5": "da99a054428fb62342b6767b993c4c8d"
           }
         },
