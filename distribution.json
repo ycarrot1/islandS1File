@@ -865,16 +865,6 @@
           }
         },
         {
-          "id": "ca.spottedleaf:starlight:1.1.2+forge.1cda73c@jar",
-          "name": "Starlight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 110583,
-            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/optionaloff/starlight-1.1.2+forge.1cda73c.jar",
-            "MD5": "da99a054428fb62342b6767b993c4c8d"
-          }
-        },
-        {
           "id": "com.railwayteam:railways:1.7.2+forge-mc1.20.1@jar",
           "name": "Create: Steam 'n' Rails",
           "type": "ForgeMod",
