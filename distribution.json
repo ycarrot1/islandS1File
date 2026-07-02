@@ -452,8 +452,7 @@
             "MD5": "dec1c8595667b063e9274d32b32efa5d"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -567,6 +566,19 @@
             "size": 1144069,
             "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
             "MD5": "2dcd30a9a9c1f0cd468915dad15d6401"
+          }
+        },
+        {
+          "id": "dev.kir.cubeswithoutborders.client:cubes_without_borders:3.0.0+mc1.20@jar",
+          "name": "Cubes Without Borders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258613,
+            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/optionalon/cwb-forge-3.0.0+mc1.20.jar",
+            "MD5": "71c31fd8c44e94876c520c3f58fcd95b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -736,6 +748,16 @@
           }
         },
         {
+          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.6+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 378658,
+            "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/forgemods/required/koreanpatch-forge-1.9.6+mc1.20.1.jar",
+            "MD5": "fc68072473d9a8043d14c7d88a9f92e6"
+          }
+        },
+        {
           "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
           "name": "Kotlinforforge",
           "type": "ForgeMod",
@@ -860,8 +882,7 @@
             "MD5": "6e3efd49fceebe9026b8f831518e0048"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -1049,9 +1070,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 81,
+            "size": 192,
             "url": "http://ycarrot1.github.io/islandS1File//servers/islandS1-1.20.1/files/servers.dat",
-            "MD5": "0b9fb0a9607bf55623fa07eab938df26",
+            "MD5": "7611d0e7ce252815a8460d7aa71285b8",
             "path": "servers.dat"
           }
         }
