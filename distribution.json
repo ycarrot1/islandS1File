@@ -15,6 +15,15 @@
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
+      "javaOptions": {
+        "supported": ">=17 <21",
+        "suggestedMajor": 17,
+        "distribution": "TEMURIN",
+        "ram": {
+          "minimum": 4096,
+          "recommended": 6144
+        }
+      },
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
