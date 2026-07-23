@@ -772,26 +772,6 @@
           }
         },
         {
-          "id": "com.majruszlibrary:majruszlibrary:7.0.8@jar",
-          "name": "Majrusz Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 437340,
-            "url": "http://ycarrot1.github.io/islandS1File/servers/islandS2-1.20.1/forgemods/required/majrusz-library-forge-1.20.1-7.0.8.jar",
-            "MD5": "f41b4aea81b1e3a1538a1beace7f6c7d"
-          }
-        },
-        {
-          "id": "com.majruszsdifficulty:majruszsdifficulty:1.9.10@jar",
-          "name": "Majrusz's Progressive Difficulty",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 777242,
-            "url": "http://ycarrot1.github.io/islandS1File/servers/islandS2-1.20.1/forgemods/required/majruszs-difficulty-forge-1.20.1-1.9.10.jar",
-            "MD5": "0c7904c13caf349c515270a66356fa09"
-          }
-        },
-        {
           "id": "ca.fxco:memoryleakfix:1.1.5@jar",
           "name": "Memory Leak Fix",
           "type": "ForgeMod",
@@ -882,6 +862,16 @@
           }
         },
         {
+          "id": "net.silentchaos512:scalinghealth:8.0.2+9@jar",
+          "name": "Scaling Health",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 535471,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/islandS2-1.20.1/forgemods/required/ScalingHealth-1.20.1-8.0.2+9.jar",
+            "MD5": "fb0644341064beedb623b359af15fcbc"
+          }
+        },
+        {
           "id": "com.blamejared:searchables:1.0.3@jar",
           "name": "Searchables",
           "type": "ForgeMod",
@@ -899,6 +889,16 @@
             "size": 160885,
             "url": "http://ycarrot1.github.io/islandS1File/servers/islandS2-1.20.1/forgemods/required/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
             "MD5": "496c07d3696c3a77307b15b618ed60ff"
+          }
+        },
+        {
+          "id": "net.silentchaos512.lib:silentlib:8.0.0@jar",
+          "name": "Silent Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225948,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/islandS2-1.20.1/forgemods/required/silent-lib-1.20.1-8.0.0.jar",
+            "MD5": "4ac76c6245f8ca76ab0b20a0eca13ea1"
           }
         },
         {
