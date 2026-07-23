@@ -1,10 +1,10 @@
 {
-  "$schema": "file:///D:/1.Ycarrot/3.Develop/islandS1/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///D:/1.Ycarrot/3.Develop/islandS2/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
-      "clientId": "1497837773632176199",
-      "smallImageText": "island Server Season 1",
+      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     }
   }
