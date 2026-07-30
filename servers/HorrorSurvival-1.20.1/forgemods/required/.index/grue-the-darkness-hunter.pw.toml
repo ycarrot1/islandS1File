@@ -1,0 +1,21 @@
+filename = 'grue_remake-1.5.0-forge-1.20.1.jar'
+name = 'Grue: The Darkness Hunter'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'grue_remake-1.5.0-forge-1.20.1.jar'
+
+[download]
+hash = '002d8f95e470e5a2c3548f4f4250b16441bdabea'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5669644
+project-id = 1085774
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

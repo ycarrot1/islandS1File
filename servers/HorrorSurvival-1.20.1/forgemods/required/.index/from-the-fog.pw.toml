@@ -1,0 +1,18 @@
+filename = 'From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar'
+name = 'From The Fog'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20-Snapshot', '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = ' ✨Release v1.9.2 - 1.20-1.20.2 - Forge/Fabric'
+
+[download]
+hash = '8508868b645b4c8bcdfef1437f0278173eaadbbb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4603882
+project-id = 852533

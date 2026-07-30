@@ -1,0 +1,18 @@
+filename = 'befall-1.6.0-forge-1.20.1.jar'
+name = 'Befall ( Faces Everywhere )'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '2159f8bbfbbc518a2c3f5a80762b10ef100f02aaa2b9726c1b8d45f9a285bcc2a7b7968294c579c126125e70b1997934c17a2e7209833d398e07de1eab343cb1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rj2arqHJ/versions/z4qQDbQr/befall-1.6.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'rj2arqHJ'
+version = 'z4qQDbQr'

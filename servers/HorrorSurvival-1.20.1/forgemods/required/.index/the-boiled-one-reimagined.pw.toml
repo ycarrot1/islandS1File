@@ -1,0 +1,21 @@
+filename = 'boiled_reimagined-1.0.12-forge-1.20.1.jar'
+name = 'The Boiled One: Reimagined'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.12'
+
+[download]
+hash = '71fafe449a91f0907974d8fca30f4c392db17ec48e45a8b15b65b6ea0a6e2cb24bb428e89fc9e122f506dc659cf0c4be5c23a6e4d55df51cf91d68cc8d8314c9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/R66x3b6s/versions/ZQ9TvLGM/boiled_reimagined-1.0.12-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'R66x3b6s'
+version = 'ZQ9TvLGM'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'

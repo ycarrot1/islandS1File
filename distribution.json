@@ -8,6 +8,793 @@
   },
   "servers": [
     {
+      "id": "HorrorSurvival-1.20.1",
+      "name": "HorrorSurvival (Minecraft 1.20.1)",
+      "description": "HorrorSurvival Running Minecraft 1.20.1 (Forge v47.4.22)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.22",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7393,
+            "MD5": "e8331ab685caa10c4e1ca6613b14a7d0",
+            "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.22/lowcodelanguage-1.20.1-47.4.22.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.22",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16629,
+                "MD5": "17b365a2c7098647314d82326391eb04",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/versions/1.20.1-forge-47.4.22/1.20.1-forge-47.4.22.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.22",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118908,
+                "MD5": "f001573a372f583c571d809e30cb63b1",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.22/fmlcore-1.20.1-47.4.22.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.22",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16849,
+                "MD5": "a02b109bf6657ef531ba2f8f20ea11ea",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.22/javafmllanguage-1.20.1-47.4.22.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.22",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4993,
+                "MD5": "05d88c1f2ce7543167f0efcb04821e3c",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.22/mclanguage-1.20.1-47.4.22.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.22:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2508714,
+                "MD5": "58069c11175bd6473ddecd7ed6156f24",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/forge/1.20.1-47.4.22/forge-1.20.1-47.4.22-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.22:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/forge/1.20.1-47.4.22/forge-1.20.1-47.4.22-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126252,
+                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 75010,
+                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51963,
+                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94643,
+                "MD5": "fd4d359daf227302ab9cefd36476ca72",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35170,
+                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.2.33",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.22",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 270955,
+                "MD5": "b6b202c492215c11587ead71428f45c8",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.22/fmlloader-1.20.1-47.4.22.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.22",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170512,
+                "MD5": "2a6e80a7609f9b6c4b2b7f02086231ee",
+                "url": "http://ycarrot1.github.io/islandS1File/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.22/fmlearlydisplay-1.20.1-47.4.22.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:6.3.8@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53429226,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+            "MD5": "dec1c8595667b063e9274d32b32efa5d"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "net.mcreator:befalltwo:1.0.0@jar",
+          "name": "Befalltwo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2064816,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/befall-1.6.0-forge-1.20.1.jar",
+            "MD5": "8b9aa3fd585242a1a7913702f9c68b84"
+          }
+        },
+        {
+          "id": "net.hqrvester.boiled:boiled_reimagined:1.0.12@jar",
+          "name": "Boiled One Reimagined",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4928773,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/boiled_reimagined-1.0.12-forge-1.20.1.jar",
+            "MD5": "a877621c987218ca81db165da0b91a85"
+          }
+        },
+        {
+          "id": "de.cadentem:cave_dweller:1.7.0@jar",
+          "name": "Cave_dweller",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 626860,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/cave_dweller-1.20.1-1.7.0.jar",
+            "MD5": "da7a80d0c37b857eba9ee9b303eb5de4"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.15.3@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 722325,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/chat_heads-0.15.3-forge-1.20.jar",
+            "MD5": "acad84e8d6799b7e620c7c70edc40808"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20300,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "7a71806a1167d866608fc2e8c7d62041"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.39@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1144128,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+            "MD5": "941e290ecd7ca54c2ed6a543b68d754b"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 402345,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+            "MD5": "f8df69d0af455b6f47acb88ab747d1a3"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "team.creative:enhancedvisuals:1.8.29@jar",
+          "name": "EnhancedVisuals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4728085,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/EnhancedVisuals_FORGE_v1.8.29_mc1.20.1.jar",
+            "MD5": "2a0d8ce9570a4353e8e106e1a993b336"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.10.5@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1590221,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/entityculling-forge-1.10.5-mc1.20.1.jar",
+            "MD5": "f54a5baa0a9613d13ad0e781d245338b"
+          }
+        },
+        {
+          "id": "net.mcreator.interpritation:thebrokenscript:1.9@jar",
+          "name": "The Broken Script",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90248052,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/even-safer%20TBS%20moonfix%20v1.9.2.jar",
+            "MD5": "e5592639e75a544a38abc06963414a20"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:fastsuite:5.1.2@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26600,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/FastSuite-1.20.1-5.1.2.jar",
+            "MD5": "efca8ff65bbf93e3a0f776998ee181e9"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "studio.lunareclipse:watching:1.9.2@jar",
+          "name": "From The Fog",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4749752,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
+            "MD5": "50a095dcb6dfd46143133a62f50d36ee"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2374667,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/fzzy_config-0.7.6+1.20.1+forge.jar",
+            "MD5": "f48f8112f6e2d161c655b750f6bfd0c8"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.4@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1038209,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.4.jar",
+            "MD5": "1b8bd851bc57e2b87e285b98a7d92c76"
+          }
+        },
+        {
+          "id": "net.mcreator.grueremake:grue_remake:1.5.0@jar",
+          "name": "Grue Remake",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806324,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/grue_remake-1.5.0-forge-1.20.1.jar",
+            "MD5": "1117da83d011f26dfb7e6fcdc4200b48"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.21.0.148@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1426211,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/jei-1.20.1-forge-15.21.0.148.jar",
+            "MD5": "88c6f7003cadf3ec3559b95cd2ceaa80"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.27.66+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1002234,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/modernfix-forge-5.27.66+mc1.20.1.jar",
+            "MD5": "61c184687d2cd6c770a033f310ea55fc"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "cc.cassian:mru:1.0.31+1.20.1@jar",
+          "name": "MRU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 750262,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/mru-1.0.31+1.20.1-forge.jar",
+            "MD5": "500f191fb43fa1e27ecb19c254d25248"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282474,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7080698,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206984,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+            "MD5": "d70031b5058fb81d2670a4039440b00f"
+          }
+        },
+        {
+          "id": "dev.imb11.sounds.loaders:sounds:2.2.1+1.20.1+forge@jar",
+          "name": "Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10974911,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/Sounds-2.2.1+1.20.1+forge.jar",
+            "MD5": "ea8427a4988c1f5ad6b5ed7a38b8224d"
+          }
+        },
+        {
+          "id": "live.hisui:tbspatch:1.1.1@jar",
+          "name": "The Broken Script Patches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 672348,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/tbspatch-1.1.1.jar",
+            "MD5": "f6d573a55dc8cb6314c012e4030d793d"
+          }
+        },
+        {
+          "id": "net.mcreator.theknocker:the_knocker:1.5.2@jar",
+          "name": "The Knocker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1621054,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/the_knocker-1.5.2-forge-1.20.1.jar",
+            "MD5": "de92ee5ab97629b87786cbea3c05d518"
+          }
+        },
+        {
+          "id": "net.mcreator:man:1.4@jar",
+          "name": "The Man From The Fog",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3769386,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/The-Man-From-The-Fog-1.4-1.20.1.jar",
+            "MD5": "75cdd2565ffc3132500af54bd0d5d750"
+          }
+        },
+        {
+          "id": "de.cadentem:themimic_er:1.7.0@jar",
+          "name": "Themimic_er",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3333446,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/themimic_er-1.20.1-1.7.0.jar",
+            "MD5": "291f02bc883c0c4208c29e047e9d2da6"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.21@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4918879,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.21.jar",
+            "MD5": "ca9de8ff180da665ece914ef23fa35df"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1105891,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+            "MD5": "2437cb642e24726a83f864e345f24479"
+          }
+        }
+      ]
+    },
+    {
       "id": "islandS2-1.20.1",
       "name": "islandS2 (Minecraft 1.20.1)",
       "description": "islandS2 Running Minecraft 1.20.1 (Forge v47.4.21)",
@@ -15,15 +802,6 @@
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
-      "javaOptions": {
-        "supported": ">=17 <21",
-        "suggestedMajor": 17,
-        "distribution": "TEMURIN",
-        "ram": {
-          "minimum": 4096,
-          "recommended": 6144
-        }
-      },
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
