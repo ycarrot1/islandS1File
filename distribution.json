@@ -563,16 +563,6 @@
           }
         },
         {
-          "id": "net.mcreator.interpritation:thebrokenscript:1.9@jar",
-          "name": "The Broken Script",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 90248052,
-            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/even-safer%20TBS%20moonfix%20v1.9.2.jar",
-            "MD5": "e5592639e75a544a38abc06963414a20"
-          }
-        },
-        {
           "id": "dev.shadowsoffire:fastsuite:5.1.2@jar",
           "name": "Fast Suite",
           "type": "ForgeMod",
@@ -713,6 +703,16 @@
           }
         },
         {
+          "id": "net.mcreator.interpritation:thebrokenscript:1.9.3@jar",
+          "name": "The Broken Script",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 83064546,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/rus-patch-1.3_6-1.9.3.jar",
+            "MD5": "e741f99034bd56d56f920b8af64935c4"
+          }
+        },
+        {
           "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
           "name": "Sound Physics Remastered",
           "type": "ForgeMod",
@@ -730,16 +730,6 @@
             "size": 10974911,
             "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/Sounds-2.2.1+1.20.1+forge.jar",
             "MD5": "ea8427a4988c1f5ad6b5ed7a38b8224d"
-          }
-        },
-        {
-          "id": "live.hisui:tbspatch:1.1.1@jar",
-          "name": "The Broken Script Patches",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 672348,
-            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/tbspatch-1.1.1.jar",
-            "MD5": "f6d573a55dc8cb6314c012e4030d793d"
           }
         },
         {
