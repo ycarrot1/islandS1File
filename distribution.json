@@ -13,14 +13,14 @@
       "description": "HorrorSurvival Running Minecraft 1.20.1 (Forge v47.4.22)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "islandsrv.mcv.kr:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -703,16 +703,6 @@
           }
         },
         {
-          "id": "net.mcreator.interpritation:thebrokenscript:1.9.3@jar",
-          "name": "The Broken Script",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 83064546,
-            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/rus-patch-1.3_6-1.9.3.jar",
-            "MD5": "e741f99034bd56d56f920b8af64935c4"
-          }
-        },
-        {
           "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
           "name": "Sound Physics Remastered",
           "type": "ForgeMod",
@@ -733,6 +723,16 @@
           }
         },
         {
+          "id": "live.hisui:tbspatch:1.1.1@jar",
+          "name": "The Broken Script Patches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 672348,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/tbspatch-1.1.1.jar",
+            "MD5": "f6d573a55dc8cb6314c012e4030d793d"
+          }
+        },
+        {
           "id": "net.mcreator.theknocker:the_knocker:1.5.2@jar",
           "name": "The Knocker",
           "type": "ForgeMod",
@@ -750,6 +750,16 @@
             "size": 3769386,
             "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/The-Man-From-The-Fog-1.4-1.20.1.jar",
             "MD5": "75cdd2565ffc3132500af54bd0d5d750"
+          }
+        },
+        {
+          "id": "net.mcreator.interpritation:thebrokenscript:1.9@jar",
+          "name": "The Broken Script",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90183770,
+            "url": "http://ycarrot1.github.io/islandS1File/servers/HorrorSurvival-1.20.1/forgemods/required/The%20Broken%20Script%20V1.9.3.jar",
+            "MD5": "6b7644f7537e38004212923a72a0f0a8"
           }
         },
         {
@@ -790,7 +800,7 @@
       "description": "islandS2 Running Minecraft 1.20.1 (Forge v47.4.21)",
       "icon": "http://ycarrot1.github.io/islandS1File/servers/islandS2-1.20.1/TeamIslandsrv.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "islandsrv.mcv.kr:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
